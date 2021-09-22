@@ -1,0 +1,19 @@
+html, body{
+    margin : 0;
+    padding: 0;
+}
+
+button {
+    padding: 0.5em;
+    border: none;
+    background-color: #8e0038;
+    color: #fff;
+    font-weight: normal;
+    box-shadow:  0 3px 15px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    min-width: 100px;
+}
+
+.restaurants {
+    padding : 8px;
+}

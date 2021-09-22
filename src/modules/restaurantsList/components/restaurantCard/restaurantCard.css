@@ -1,0 +1,29 @@
+.restaurant-card {
+    background-color: #c5e1a5;
+    padding: 1rem;
+    border-radius: 3px;
+    box-shadow:  0 3px 5px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+
+.restaurant-card.loading ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+.restaurant-card li {
+    background-color: #65804a;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.restaurant-info {
+    display: grid;
+}
+
+.submit-btn {
+    margin-top: 1rem;
+}

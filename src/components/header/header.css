@@ -1,0 +1,66 @@
+.header{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    border-bottom: 1px solid #D7D7D7;
+    background-color: #65804a;
+    color: #fff;
+    box-shadow:  0 3px 15px 0 rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+
+}
+
+.header .logo {
+    width: 150px;
+    height: 80px;
+    margin: 0.5rem 0 0 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    background-image: url("./logo.png");
+}
+
+
+.header .title {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+}
+
+
+.header .user {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .menu .menu-item {
+    padding: 0.5em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.header .menu .menu-item .icon{
+    background-color: pink;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-right: 4px;
+}
